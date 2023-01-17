@@ -2,6 +2,8 @@
 
 This repository contains the AlphaCutter.py for the removal of disordered regions from predicted protein structures.
 
+![20220816_one-on-one](https://user-images.githubusercontent.com/51283097/212842122-2a05502f-2672-473f-8efe-90fdeb165090.png)
+
 (link to paper)
 
 (major results)
