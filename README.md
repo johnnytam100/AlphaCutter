@@ -61,6 +61,6 @@ python AlphaCutter_v111.py
 
 * `--local_contact_range`   – Distinguish non-local contact and local contact used in defining disordered loops and helices. Loops and helices forming any non-local contacts will be redirected as domain fragments. (Default: `5`. Not recommended to change it. If you do, also test with `--loop_min` and `--helix_min`.)
 
-* `--single_out`   – Output every domain as a separate PDB file.
+* `--single_out`   – Output every domains as a separate PDB files.
 
 * `--domain_out`   – Output all domains as a single PDB file.
