@@ -22,28 +22,28 @@ cp (path to your PDB files) ./
 **(1) Default Settings**
 
 ````
-python AlphaCutter_v111.py 
-  --loop_min 20 
-  --helix_min 30 
-  --fragment_min 0 
-  --domain_min 0 
-  --pLDDT_min 0 
-  --local_contact_range 5 
-  --single_out 
+python AlphaCutter_v111.py \
+  --loop_min 20 \
+  --helix_min 30 \
+  --fragment_min 0 \
+  --domain_min 0 \
+  --pLDDT_min 0 \
+  --local_contact_range 5 \
+  --single_out \
   --domain_out
 ````
 
 **(2) Remove shorter loops and helices**
 
 ````
-python AlphaCutter_v111.py 
-  --loop_min 15 
-  --helix_min 20 
-  --fragment_min 0 
-  --domain_min 0 
-  --pLDDT_min 0 
-  --local_contact_range 5 
-  --single_out 
+python AlphaCutter_v111.py \
+  --loop_min 15 \
+  --helix_min 20 \
+  --fragment_min 0 \
+  --domain_min 0 \
+  --pLDDT_min 0 \
+  --local_contact_range 5 \
+  --single_out \
   --domain_out
 ````
 
