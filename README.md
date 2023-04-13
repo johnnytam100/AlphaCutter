@@ -51,9 +51,9 @@ python AlphaCutter_v111.py \
 
 # Options
 
-* `--loop_min`        – Min. loop length to be consider as disordered region. (Default: `20`. Decrease it to remove shorter loops.)
+* `--loop_min`        – Min. loop length to be consider as non-globular region. (Default: `20`. Decrease it to remove shorter loops.)
 
-* `--helix_min`       – Min. helix length to be consider as disordered region. (Default: `30`. Decrease it to remove shorter helices.)
+* `--helix_min`       – Min. helix length to be consider as non-globular region. (Default: `30`. Decrease it to remove shorter helices.)
 
 * `--fragment_min`    – Min. domain fragment length to be consider as domain region. (Default: `0`. Increase it to exclude small domain fragments.)
 
@@ -61,7 +61,7 @@ python AlphaCutter_v111.py \
 
 * `--pLDDT_min`       – Min. average pLDDT of domain residues to be output as a domain  (Default: `0`. Increase it to exclude domains predicted with low pLDDT.)
 
-* `--local_contact_range`   – Distinguish non-local contact and local contact used in defining disordered loops and helices. Loops and helices forming any non-local contacts will be redirected as domain fragments. (Default: `5`. Not recommended to change it. If you do, also test with `--loop_min` and `--helix_min`.)
+* `--local_contact_range`   – Distinguish non-local contact and local contact used in defining non-globular loops and helices. Loops and helices forming any non-local contacts will be redirected as domain fragments. (Default: `5`. Not recommended to change it. If you do, also test with `--loop_min` and `--helix_min`.)
 
 * `--single_out`   – Output all domains as a single PDB file.
 
