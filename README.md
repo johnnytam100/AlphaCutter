@@ -12,12 +12,23 @@ This repository contains the AlphaCutter.py for the removal of non-globular regi
 
 # How to run AlphaCutter
 
-## Step 1 : Copy all PDB files to current directory.
+## Step 1 : Clone, create environment.
+````
+git clone https://github.com/johnnytam100/AlphaCutter.git
+
+cd AlphaCutter
+
+conda env create -f environment.yml
+
+conda activate AlphaCutter
+````
+
+## Step 2 : Copy all PDB files to current directory.
 ````
 cp (path to your PDB files) ./
 ````
 
-## Step 2 : Run AlphaCutter.
+## Step 3 : Run AlphaCutter.
 
 **(1) Default Settings**
 
