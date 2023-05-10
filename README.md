@@ -36,7 +36,7 @@ cp (path to your PDB files) ./
 python AlphaCutter_v111.py \
   --loop_min 20 \
   --helix_min 30 \
-  --fragment_min 0 \
+  --fragment_min 5 \
   --domain_min 0 \
   --pLDDT_min 0 \
   --local_contact_range 5 \
@@ -50,7 +50,7 @@ python AlphaCutter_v111.py \
 python AlphaCutter_v111.py \
   --loop_min 15 \
   --helix_min 20 \
-  --fragment_min 0 \
+  --fragment_min 5 \
   --domain_min 0 \
   --pLDDT_min 0 \
   --local_contact_range 5 \
@@ -66,7 +66,7 @@ python AlphaCutter_v111.py \
 
 * `--helix_min`       – Min. helix length to be consider as non-globular region. (Default: `30`. Decrease it to remove shorter helices.)
 
-* `--fragment_min`    – Min. domain fragment length to be consider as domain region. (Default: `0`. Increase it to exclude small domain fragments.)
+* `--fragment_min`    – Min. domain fragment length to be consider as domain region. (Default: `5`. Increase it to exclude small domain fragments.)
 
 * `--domain_min`      – Min. domain length to be output as a domain. (Default: `0`. Increase it to exclude small domains in output.)
 
