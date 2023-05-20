@@ -86,6 +86,6 @@ Step 1: Download all parts files from https://doi.org/10.5281/zenodo.7944483
 
 Step 2: Run the following
 ````
-cat *parts-a? > 20230510_AlphaCutter_cleaned_SwissProt.tar.gz
+cat 20230510_AlphaCutter_cleaned_SwissProt_parts-a? > 20230510_AlphaCutter_cleaned_SwissProt.tar.gz
 tar zxvf 20230510_AlphaCutter_cleaned_SwissProt.tar.gz
 ````
