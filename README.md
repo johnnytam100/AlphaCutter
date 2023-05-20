@@ -77,3 +77,15 @@ python AlphaCutter_v111.py \
 * `--single_out`   – Output all domains as a single PDB file.
 
 * `--domain_out`   – Output every domain as a separate PDB file.
+
+---
+
+# AlphaCutter-cleaned SwissProt Protein Structures
+
+Step 1: Download all parts files from https://doi.org/10.5281/zenodo.7944483
+
+Step 2: Run the following
+````
+cat *parts-a? > 20230510_AlphaCutter_cleaned_SwissProt.tar.gz
+tar zxvf 20230510_AlphaCutter_cleaned_SwissProt.tar.gz
+````
