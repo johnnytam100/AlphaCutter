@@ -62,11 +62,11 @@ python AlphaCutter_v111.py \
 
 # Options
 
-* `--loop_min`        – Min. loop length to be consider as non-globular region. (Default: `20`. Decrease it to remove shorter loops.)
+* `--loop_min`        – Min. loop length to be considered as non-globular region. (Default: `20`. Decrease it to remove shorter loops.)
 
-* `--helix_min`       – Min. helix length to be consider as non-globular region. (Default: `30`. Decrease it to remove shorter helices.)
+* `--helix_min`       – Min. helix length to be considered as non-globular region. (Default: `30`. Decrease it to remove shorter helices.)
 
-* `--fragment_min`    – Min. domain fragment length to be consider as domain region. (Default: `5`. Increase it to exclude small domain fragments.)
+* `--fragment_min`    – Min. domain fragment length to be considered as domain region. (Default: `5`. Increase it to exclude small domain fragments.)
 
 * `--domain_min`      – Min. domain length to be output as a domain. (Default: `0`. Increase it to exclude small domains in output.)
 
