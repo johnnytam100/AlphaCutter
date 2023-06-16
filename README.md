@@ -2,11 +2,11 @@
 
 This repository contains the AlphaCutter.py for the removal of non-globular regions from predicted protein structures.
 
+Tam, C., & Iwasaki, W. (2023). AlphaCutter: Efficient removal of non‐globular regions from predicted protein structures. In PROTEOMICS. Wiley. https://doi.org/10.1002/pmic.202300176
+
 ![20220816_one-on-one](https://user-images.githubusercontent.com/51283097/212842122-2a05502f-2672-473f-8efe-90fdeb165090.png)
 
-(link to paper)
-
-(major results)
+![image](https://github.com/johnnytam100/AlphaCutter/assets/51283097/a8901ac4-bfab-4f62-8ecb-98131c93fe70)
 
 ---
 
