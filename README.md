@@ -7,7 +7,7 @@ Tam, C., & Iwasaki, W. (2023). AlphaCutter: Efficient removal of non‐globular 
 ![20220816_one-on-one](https://user-images.githubusercontent.com/51283097/212842122-2a05502f-2672-473f-8efe-90fdeb165090.png)
 
 <p align="center">
-  <img src="https://github.com/johnnytam100/AlphaCutter/assets/51283097/4178cf66-383a-4ab7-a76b-d3b78e2ec796" width="800">
+  <img src="https://github.com/johnnytam100/AlphaCutter/assets/51283097/4178cf66-383a-4ab7-a76b-d3b78e2ec796" width="600">
 </p>
 
 ---
