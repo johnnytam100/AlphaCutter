@@ -68,9 +68,9 @@ python AlphaCutter_v111.py \
 
 * `--helix_min`       – Min. helix length to be considered as non-globular region. (Default: `30`. Decrease it to remove shorter helices.) Note: This option is not compulsory if `loop_min` is specified.
 
-* `--fragment_min`    – Min. domain fragment length to be considered as domain region. (Default: `5`. Increase it to exclude small domain fragments.)
+* `--fragment_min`    – Min. domain fragment length to be considered as domain region. (Default: `5`. Increase it to exclude larger domain fragments.)
 
-* `--domain_min`      – Min. domain length to be output as a domain. (Default: `0`. Increase it to exclude small domains in output.)
+* `--domain_min`      – Min. domain length to be output as a domain. (Default: `0`. Increase it to exclude larger domains in output.)
 
 * `--pLDDT_min`       – Min. average pLDDT of domain residues to be output as a domain  (Default: `0`. Increase it to exclude domains predicted with low pLDDT.)
 
