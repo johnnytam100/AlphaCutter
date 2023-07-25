@@ -78,7 +78,7 @@ python AlphaCutter_v111.py \
 
 * `--single_out`   – Output all domains as a single PDB file.
 
-* `--domain_out`   – Output every domain as a separate PDB file.
+* `--domain_out`   – Output every non-contacting domain as a separate PDB file.
 
 ---
 
